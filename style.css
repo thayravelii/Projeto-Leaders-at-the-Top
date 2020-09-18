@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/015/610/068/large/artur-sadlos-leg-double-sh050-background-as-v003.jpg?1548955686);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(240, 240, 240);
+    width: 1500px;
+    height: 50px;
+    
+}
+
+
+
+nav a {
+    position: relative;
+    color:  #b8860b;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px;
+    
+    
+}
+
+nav a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color:  rgb(85, 28, 85);
+    top: 0;
+    left: 0;
+}
+
+nav a:hover::before {
+    width: 100%;
+    transition: width 0.5s linear;
+}
+
+nav a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: rgb(85, 28, 85);
+    bottom: -4px;
+    left: 0;
+}
+
+nav a:hover::after {
+    width: 100%;
+    transition: width 0.5s linear;
+}
+
+
+#principal {
+    
+    
+    background: transparent;
+    border: solid 2px  #b8860b;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    color: white;
+    font-size: 14px;
+    
+    
+    
+    
+}
+
+#principal:hover { 
+    
+    background-color: rgb(85, 28, 85);
+    border: solid 2px rgb(85, 28, 85);
+}
+#infJogo {
+    
+    background: transparent;
+    border: solid 2px   #b8860b;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 300px;
+    height: 150px;
+    margin: 50px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    color: white;
+    
+    
+    
+}
+
+#infJogo:hover {
+   
+    
+        background-color: rgb(85, 28, 85);
+        border: solid 2px rgb(85, 28, 85);
+    
+}
+
+#quemsou {
+    width: 16%;
+    border-radius: 90%;
+    position: absolute;
+    left: 32%;
+    top: 15%;
+}
+
+#logo {
+    width: 30%;
+    position: absolute;
+    right: 50px;
+    top: 80px;
+}
+
+.icone {
+    width: 15%;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:  rgb(240, 240, 240);
+    width: 1500px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b8860b;
+    
+    
+}
+
+
+
+
